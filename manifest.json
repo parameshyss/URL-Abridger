@@ -1,0 +1,24 @@
+{
+ "manifest_version": 2,
+ "name": "URL Abridger",
+ "description": "shortens URL & copies to clipboard",
+ "version": "1.0",
+ "icons": { "16": "icon_16.png",
+           "48": "icon_48.png",
+          "128": "icon_128.png" },
+ "author": [ {
+  "name": "Parameshwaran B",
+  "email": "parameshyss@gmail.com"
+ } ],
+ "homepage_url": "http://about.me/paramesh",
+ "offline_enabled": false,
+ "options_page": "options.html",
+ "background": {
+        "persistent": false,
+        "scripts": ["jquery-1.10.2.js", "background.js"]
+    },
+ "permissions": ["tabs", "clipboardRead"],
+ "browser_action": {
+    "default_icon": "icon_19.png"
+  }
+}
